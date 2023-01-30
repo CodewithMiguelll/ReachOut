@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+color: #fff;
+}
+
+header, #nav-list{
+    display: flex;
+    flex-direction: row;
+    margin:10px;
+    list-style: none;
+}
+
+a{
+   padding: 10px;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   text-decoration: none;
+   font-size: large;
+   color: #fff;
+   transition: all 0.1s ease-in-out;
+}
+
+a:hover{
+ border-bottom: 2px solid #fff;
+ border-radius: 25px;
+}
+
+.hero-text{
+    font-size: 7em;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.subtext{
+    text-align: center;
+    font-style: oblique;
+    margin-bottom: .5%;
+}
+
+fieldset{
+    width: fit-content;
+    padding: 20px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-style:none;
+}
+
+legend{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+#button {
+    margin-left: 13px;
+    border-radius: 29px;
+    padding: 6px;
+    transition: all 0.2s ease;
+    background-color: #FF3CAC;
+    border: none;
+    font-weight:bold ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button:hover{
+    box-shadow: 5px 8.5px;
+}
+
+.specify{
+    margin-top:25px ;
+    text-align: center;
+}
+
+em{
+    font-weight: bold;
+}
+
+#emotion-spec{
+    margin-top: 10px;
+    border: 1px solid white;
+    border-style: inset;
+    border-radius: 25px;
+    background-color:#784BA0;
+    caret-color: #FF3CAC;
+transition: 0.3s all ease-in-out;
+padding: 5px;
+}
+
+#emotion-spec:hover{
+    transform: scale(1.1);
+}
+
+#Features{
+    font-weight: bold;
+    margin: 35px;
+}
+
+p{
+    margin-bottom: 15px;
+}
+
+span{
+    text-decoration: underline;
+}
+
+#Main-article{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+h4{
+    margin-top: 15px;
+    margin-bottom: 25px;
+text-align: center;
+text-decoration: underline;
+font-size: 2em;
+}
+
+.big-letter{
+    text-decoration: none;
+    font-size:xx-large;
+}
+
+.signature{
+    text-align: right;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+#Article-img{
+    float: right;
+}
+
+#Footer-section{
+    margin-top: 30px;
+}
+
+#footer-links{
+    display: flex;
+    flex-direction: row;
+    font-size: large;
+}
+
+.links{
+    list-style: none;
+    padding-right: 10px;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+#Email{
+    background-color: #784BA0;
+    color: #fff;
+    transition: 0.3s all ease-in-out;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    padding: 5px;
+    caret-color: #FF3CAC;
+}
+
+#Email:hover{
+    transform: scale(1.1);
+}
+
+#Sign-Up{
+    border-radius: 25px;
+    border: 1px solid #fff;
+    padding: 5px;
+    margin-left: 7px;
+    transition: all 0.2s ease;
+    background-color: #784BA0;
+    font-weight: bold;
+    color: #fff;
+}
+
+
